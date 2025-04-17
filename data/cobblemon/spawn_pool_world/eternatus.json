@@ -1,0 +1,25 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "eternatus-1",
+            "pokemon": "eternatus",
+            "presets": [
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "legendary",
+            "level": "70-100",
+            "weight": 1,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_end",
+                    "biomesoplenty:origin_valley",
+                    "biomesoplenty:wintry_origin_valley"
+                ]
+            }
+        }
+    ]
+}

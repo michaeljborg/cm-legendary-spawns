@@ -1,0 +1,30 @@
+{
+   "enabled": true,
+   "neededInstalledMods": [],
+   "neededUninstalledMods": [],
+   "spawns": [
+       {
+           "id": "zamazenta-1",
+           "pokemon": "zamazenta",
+           "presets": [
+           ],
+           "type": "pokemon",
+           "context": "grounded",
+           "bucket": "legendary",
+           "level": "70",
+           "weight": 1.0,
+           "condition": {
+               "biomes": [
+                   "#cobblemon:is_forest",
+                   "biomesoplenty:jacaranda_glade",
+                   "biomesoplenty:lavender_field",
+                   "biomesoplenty:ominous_woods",
+                   "terralith:cloud_forest",
+                   "terralith:blooming_valley",
+                   "terralith:mirage_isles",
+                   "biomesoplenty:auroral_garden"
+               ]
+           }
+       }
+   ]
+}

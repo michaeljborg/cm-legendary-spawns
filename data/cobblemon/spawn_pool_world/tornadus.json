@@ -1,0 +1,29 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "tornadus-1",
+      "pokemon": "tornadus",
+      "presets": [],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "legendary",
+      "level": "50-70",
+      "weight": 0.5,
+      "condition": {
+        "isRaining": true,
+        "biomes": [
+          "#cobblemon:is_hills",
+          "#cobblemon:is_plains",
+          "terralith:alpine_grove",
+          "terralith:alpine_highland",
+          "terralith:amethyst_canyon",
+          "biomesoplenty:jade_cliffs",
+          "biomesoplenty:hot_springs"
+        ]
+      }
+    }
+  ]
+}

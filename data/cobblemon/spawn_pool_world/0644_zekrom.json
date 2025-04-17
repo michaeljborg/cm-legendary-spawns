@@ -1,0 +1,27 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "zekrom-1",
+      "pokemon": "zekrom",
+      "presets": [],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "legendary",
+      "level": "70",
+      "weight": 3.0,
+      "condition": {
+        "isThundering": true,
+        "biomes": [
+                   "#cobblemon:is_mountain",
+                   "terralith:alpine_highlands",
+                   "terralith:highlands",
+                   "biomesoplenty:cold_desert"
+        ],
+        "neededNearbyBlocks": ["minecraft:lightning_rod"]
+      }
+    }
+  ]
+}

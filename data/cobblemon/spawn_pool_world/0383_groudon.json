@@ -1,0 +1,28 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "groudon-1",
+      "pokemon": "groudon",
+      "presets": [
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "legendary",
+      "level": "70",
+      "weight": 2.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_volcanic",
+          "#minecraft:is_nether",
+          "biomesoplenty:erupting_inferno",
+          "terralith:volcanic_crater",
+          "terralith:volcanic_peaks",
+          "terralith:hot_shrubland"
+               ]
+            }
+        }
+    ]
+}
