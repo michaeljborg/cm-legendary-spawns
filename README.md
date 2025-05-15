@@ -3,4 +3,4 @@ Legendary Spawns Revamped 1.4 datapack
 
 Uses the models added by the Mega Showdown mod
 
-Added a legendary spawn bucket to contorl legendary spawn rates
+Added a legendary spawn bucket to control legendary spawn rates
